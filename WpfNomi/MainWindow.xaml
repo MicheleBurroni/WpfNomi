@@ -1,0 +1,18 @@
+﻿<Window x:Class="WpfNomi.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfNomi"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btnRimuovi" Content="Rimuovi" HorizontalAlignment="Left" VerticalAlignment="Top" Width="119" Margin="82,282,0,0" Height="40" Click="btnRimuovi_Click"/>
+        <Button x:Name="btnPulisci" Content="Pulisci" HorizontalAlignment="Left" VerticalAlignment="Top" Width="119" Margin="319,282,0,0" Height="40" Click="btnPulisci_Click"/>
+        <Button x:Name="btnChiudi" Content="Chiudi" HorizontalAlignment="Left" VerticalAlignment="Top" Width="119" Margin="560,282,0,0" Height="40" RenderTransformOrigin="0.515,-0.571"/>
+        <ComboBox x:Name="cboNomi" HorizontalAlignment="Left" VerticalAlignment="Top" Width="235" Margin="243,37,0,0" Height="80" SelectionChanged="cboNomi_SelectionChanged"/>
+        <Button x:Name="btnAggiungi" Content="Aggiungi" HorizontalAlignment="Left" VerticalAlignment="Top" Width="119" Margin="23,129,0,0" Height="37" Click="btnGiiungi_Click"/>
+        <ListBox x:Name="lboMostra" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="235" Margin="243,140,0,0"/>
+
+    </Grid>
+</Window>
